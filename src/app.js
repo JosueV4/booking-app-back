@@ -20,7 +20,7 @@ app.use(cors());
 
 app.use(router);
 app.get('/', (req, res) => {
-  return res.send('Booking App - by Josue!');
+  return res.send('Booking App Academlo');
 });
 
 // middlewares después de las rutas
